@@ -1,0 +1,17 @@
+{
+  "name": "boilerplate_for_user_login_authentication",
+  "version": "1.0.0",
+  "description": "Boilerplate for user registration and login authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tolulope Odueke",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
