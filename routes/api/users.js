@@ -68,7 +68,7 @@ router.post("/login", (req, res) => {
   User.findOne({ email }).then(user => {
     // Check if user exists
     if (!user) {
-      return res.status(404).json({ emailnotfound: "Email not found" });
+      return res.status(404).json({ emailNotFound: "Email not found" });
     }
 
     // Check password
@@ -103,3 +103,20 @@ router.post("/login", (req, res) => {
     });
   });
 });
+
+// @route GET api/users/current_user
+//@desc Return current user
+// @access Private
+router.get(
+  "/current_user",
+  passport.authenticate("jwt", { session: false }),
+  (req, res) => {
+    res.json({
+      id: req.user.id,
+      name: req.user.name,
+      email: req.user.email
+    });
+  }
+);
+
+module.exports = router;
