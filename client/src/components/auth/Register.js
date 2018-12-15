@@ -40,8 +40,8 @@ class Register extends Component {
         <div className="row">
           <div className="col s8 offset-s2">
             <Link to="/" className="btn-flat waves-effect">
-              <i className="material-icons left">keyborad_backspace</i>Back to
-              home
+              <i className="material-icons left">keyborad_backspace</i>
+              Back to home
             </Link>
             <div
               className="col s12"
@@ -65,7 +65,7 @@ class Register extends Component {
                   id="name"
                   type="text"
                 />
-                <lablel htmlFor="name">Name</lablel>
+                <label htmlFor="name">Name</label>
               </div>
               <div className="input-field col s12">
                 <input
@@ -75,7 +75,7 @@ class Register extends Component {
                   id="email"
                   type="email"
                 />
-                <lablel htmlFor="email">Email</lablel>
+                <label htmlFor="email">Email</label>
               </div>
               <div className="input-field col s12">
                 <input
@@ -85,7 +85,7 @@ class Register extends Component {
                   id="password"
                   type="password"
                 />
-                <lablel htmlFor="password">Password</lablel>
+                <label htmlFor="password">Password</label>
               </div>
               <div className="input-field col s12">
                 <input
@@ -95,7 +95,7 @@ class Register extends Component {
                   id="password2"
                   type="password"
                 />
-                <lablel htmlFor="password2">Confirm Password</lablel>
+                <label htmlFor="password2">Confirm Password</label>
               </div>
               <div
                 className="col s12"
@@ -111,7 +111,7 @@ class Register extends Component {
                     marginTop: "1rem"
                   }}
                   type="submit"
-                  className="btn btn-large waves-effect waves-light hoverable lightgreen accent-3"
+                  className="btn btn-large waves-effect waves-light hoverable deep-purple darken-1"
                 >
                   Sign up
                 </button>
