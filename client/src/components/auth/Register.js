@@ -59,7 +59,7 @@ class Register extends Component {
         <div className="row">
           <div className="col s8 offset-s2">
             <Link to="/" className="btn-flat waves-effect">
-              <i className="material-icons left">keyborad_backspace</i>
+              <i className="material-icons left">arrow_back_ios</i>
               Back to home
             </Link>
             <div
